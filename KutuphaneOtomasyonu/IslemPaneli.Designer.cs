@@ -81,6 +81,7 @@
             this.guncelleKullanicibtn.Text = "GÜNCELLE   ";
             this.guncelleKullanicibtn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.guncelleKullanicibtn.UseVisualStyleBackColor = false;
+            this.guncelleKullanicibtn.Click += new System.EventHandler(this.guncelleKullanicibtn_Click);
             // 
             // ekleKullanicibtn
             // 
