@@ -25,7 +25,7 @@ namespace KutuphaneOtomasyonu.Kullanici
             kullanicilar.kullanici_tc = kullaniciTctxt.Text;
             kullanicilar.kullanici_tel = kullaniciTeltxt.Text;
             kullanicilar.kullanici_mail = kullaniciMailtxt.Text;
-            kullanicilar.kullanici_ceza =Convert.ToDouble(kullaniciCezatxt.Text) ;
+            kullanicilar.kullanici_ceza =Convert.ToDouble(kullaniciCezatxt.Text);
             if(radioE.Checked=true)
             {
                 kullanicilar.kullanici_cinsiyet = "E";

@@ -47,7 +47,7 @@ namespace KutuphaneOtomasyonu.Kullanici
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int seçilenid = Convert.Toint16(dataGridView1.CurrentRow.Cells[0].Value);
+            int seçilenid = Convert.ToInt16(dataGridView1.CurrentRow.Cells[0].Value);
             var kullanici = db.Kullanicilar.Where(x=>x.kullanici_id==seçilenid).FirstOrDefault();
             kullanici.kullanici_ad = kullaniciAdtxt.Text;
             kullanici.kullanici_soyad = kullaniciSoyadtxt.Text;
@@ -67,6 +67,7 @@ namespace KutuphaneOtomasyonu.Kullanici
             {
                 MessageBox.Show("Lütfen Cinsiyet Seçiniz!");
             }
+                
             db.SaveChanges();
             listele();
         }
