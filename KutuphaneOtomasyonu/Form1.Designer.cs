@@ -37,12 +37,13 @@
             this.SifreGiristxt = new System.Windows.Forms.TextBox();
             this.PersonelGirisbtn = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // AdGiristxt
             // 
-            this.AdGiristxt.Location = new System.Drawing.Point(82, 192);
+            this.AdGiristxt.Location = new System.Drawing.Point(101, 187);
             this.AdGiristxt.Name = "AdGiristxt";
             this.AdGiristxt.Size = new System.Drawing.Size(217, 22);
             this.AdGiristxt.TabIndex = 0;
@@ -58,17 +59,17 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.ControlText;
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(43, 192);
+            this.label1.Location = new System.Drawing.Point(5, 190);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(33, 16);
+            this.label1.Size = new System.Drawing.Size(85, 16);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Adı :";
+            this.label1.Text = "Kullanıcı Adı :";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(36, 244);
+            this.label2.Location = new System.Drawing.Point(50, 239);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(40, 16);
             this.label2.TabIndex = 3;
@@ -76,7 +77,7 @@
             // 
             // SifreGiristxt
             // 
-            this.SifreGiristxt.Location = new System.Drawing.Point(82, 241);
+            this.SifreGiristxt.Location = new System.Drawing.Point(101, 236);
             this.SifreGiristxt.Name = "SifreGiristxt";
             this.SifreGiristxt.Size = new System.Drawing.Size(217, 22);
             this.SifreGiristxt.TabIndex = 4;
@@ -84,7 +85,7 @@
             // PersonelGirisbtn
             // 
             this.PersonelGirisbtn.BackColor = System.Drawing.Color.ForestGreen;
-            this.PersonelGirisbtn.Location = new System.Drawing.Point(82, 286);
+            this.PersonelGirisbtn.Location = new System.Drawing.Point(101, 281);
             this.PersonelGirisbtn.Name = "PersonelGirisbtn";
             this.PersonelGirisbtn.Size = new System.Drawing.Size(217, 39);
             this.PersonelGirisbtn.TabIndex = 5;
@@ -96,19 +97,31 @@
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(143, 51);
+            this.pictureBox1.Location = new System.Drawing.Point(162, 46);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(90, 90);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.SystemColors.ControlText;
+            this.label3.ForeColor = System.Drawing.SystemColors.Control;
+            this.label3.Location = new System.Drawing.Point(169, 151);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(74, 16);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Hoş Geldin";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlText;
-            this.ClientSize = new System.Drawing.Size(372, 391);
+            this.ClientSize = new System.Drawing.Size(400, 391);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.PersonelGirisbtn);
             this.Controls.Add(this.SifreGiristxt);
@@ -135,6 +148,7 @@
         private System.Windows.Forms.TextBox SifreGiristxt;
         private System.Windows.Forms.Button PersonelGirisbtn;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label3;
     }
 }
 

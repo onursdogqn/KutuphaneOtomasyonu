@@ -1,4 +1,5 @@
-﻿using KutuphaneOtomasyonu.Kaynak;
+﻿using KutuphaneOtomasyonu.Kayit;
+using KutuphaneOtomasyonu.Kaynak;
 using KutuphaneOtomasyonu.Kullanici;
 using System;
 using System.Collections.Generic;
@@ -105,6 +106,20 @@ namespace KutuphaneOtomasyonu
             KaynakSilForm kSil = new KaynakSilForm();
             kSil.MdiParent = this;
             kSil.Show();
+        }
+
+        private void guncelleKaynakbtn_Click(object sender, EventArgs e)
+        {
+            KaynakGuncelleForm kGuncelle = new KaynakGuncelleForm();
+            kGuncelle.MdiParent = this;
+            kGuncelle.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            OduncForm Odunc = new OduncForm();
+            Odunc.MdiParent = this;
+            Odunc.Show();
         }
     }
 }
